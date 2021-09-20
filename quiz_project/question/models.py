@@ -6,5 +6,10 @@ from django.db import models
 class question(models.Model):
     pass
 
+
 class choice(models.Model):
+    pass
+
+
+class score(models.Model):
     pass
