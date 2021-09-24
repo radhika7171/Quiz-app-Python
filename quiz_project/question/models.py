@@ -8,7 +8,7 @@ class question(models.Model):
 
 
 class choice(models.Model):
-    name = models.CharField(max_length=255)
+    question_name = models.CharField(max_length=255)
     pass
 
 
